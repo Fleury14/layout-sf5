@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rock+Salt');
+
+body {
+  margin: 0;
+}
+
+/* Set viewscreen to size of stream, in this case 720p */
+.viewscreen {
+  height: 720px;
+  width: 1280px;
+  background: #111; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #5dc733, #111); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #5dc733, #111); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #5dc733, #111); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #5dc733, #111); /* Standard syntax */
+}
+
+.flex-container {
+  display: flex;
+}
+
+.stream-window {
+  height: 660px;
+  width: 990px;
+  position: absolute;
+  top: 60px;
+  left: 290px;
+  box-shadow: -5px -5px 5px #bbb;
+  background-color: #000;
+}
+
+.header-top {
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 28px;
+  color: #e7d31a;
+  text-shadow: 3px 3px 3px #bbb;
+  margin: 0 auto;
+}
+
+.fgc-icon {
+  height: 200px;
+  width: 200px;
+  background-image: url(../img/fgcicon.jpg);
+  border: 3px solid #000;
+  border-radius: 5%;
+  position: relative;
+  left: 42px;
+
+}
+
+.info-text {
+  text-align: center;
+  color: #e7d31a;
+  font-family: "Oswald", sans-serif;
+  width: 290px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.info-text p {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.record {
+  color: #e7d31a;
+  text-shadow: 1px 1px 2px #000;
+  font-family: "Rock Salt", cursive;
+  font-size: 32px;
+}
+
+.js-box {
+  margin-top: 50px;
+  border: 1px solid black;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif;
+}

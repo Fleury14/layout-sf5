@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="viewscreen"> <!-- Begin viewscreen div -->
+    <div class="stream-window"></div>
+    <p class="header-top">Fresno Gaming Community</p>
+    <div class="fgc-icon"></div>
+    <div class="info-text">
+      <p>Fleury14 (J.R.)</p>
+      <p>CFN: Fleury14 (PS4), Glorious1 (PC)</p>
+      <p><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;LQFleury14</p>
+      <p>Check other Fresno community streams:</p>
+      <p><i class="fa fa-twitch" aria-hidden="true"></i>&nbsp;fresnogaminglive</p>
+      <p><i class="fa fa-twitch" aria-hidden="true"></i>&nbsp;TZN_Gaming</p>
+    </div>
+    <div class="record">
+      <span>Record:&nbsp;</span><span id="wins"></span><span>&nbsp;-&nbsp;</span><span id="losses"></span>
+    </div>
+  </div> <!-- End viewscreen div -->
+
+  <div class="js-box"> <!-- Begin JS controls (should be invisible on stream) -->
+    <button onclick="raiseWins()">Raise wins</button>
+    <button onclick="lowerWins()">Lower wins</button>
+    <br>
+    <br>
+    <button onclick="raiseLosses()">Raise losses</button>
+    <button onclick="lowerLosses()">Lower Losses</button>
+    <br><br>
+    <button onclick="resetWins()">Reset Wins</button>
+    <button onclick="resetLosses()">Reset Losses</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
