@@ -6,8 +6,8 @@ body {
 
 /* Set viewscreen to size of stream, in this case 720p */
 .viewscreen {
-  height: 720px;
-  width: 1280px;
+  height: 1080px;
+  width: 1920px;
   background: #111; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #5dc733, #111); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #5dc733, #111); /* For Opera 11.1 to 12.0 */
@@ -20,35 +20,37 @@ body {
 }
 
 .stream-window {
-  height: 620px;
-  width: 1102px;
+  height: 930px;
+  width: 1653px;
   position: absolute;
-  top: 100px;
-  left: 178px;
+  top: 150px;
+  left: 267px;
   box-shadow: -5px -5px 5px #bbb;
   background-color: #000;
 }
 
 .header-top {
   font-family: "Rock Salt", cursive;
-  font-size: 48px;
+  font-size: 72px;
   color: #e7d31a;
-  text-shadow: 3px 3px 3px #bbb;
+  text-shadow: 4px 4px 5px #333;
   margin: 0 auto;
-  height: 100px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .fgc-icon {
-  height: 150px;
-  width: 150px;
+  height: 225px;
+  width: 225px;
   background-image: url(../img/fgcicon.jpg);
-  border: 3px solid #000;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid #000;
   border-radius: 5%;
   position: relative;
-  left: 12px;
+  left: 18px;
 
 
 }
@@ -57,24 +59,24 @@ body {
   text-align: center;
   color: #e7d31a;
   font-family: "Oswald", sans-serif;
-  width: 178px;
-  font-size: 12px;
-  text-shadow: 1px 1px 2px #000;
+  width: 267px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #000;
 
 }
 
 .info-text p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .record {
   color: #e7d31a;
-  text-shadow: 1px 1px 2px #000;
+  text-shadow: 2px 2px 2px #000;
   font-family: "Rock Salt", cursive;
-  font-size: 16px;
-  margin-top: 75px;
-  width: 178px;
+  font-size: 24px;
+  margin-top: 125px;
+  width: 267px;
   text-align: center;
 }
 
