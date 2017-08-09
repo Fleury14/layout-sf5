@@ -20,32 +20,36 @@ body {
 }
 
 .stream-window {
-  height: 660px;
-  width: 990px;
+  height: 620px;
+  width: 1102px;
   position: absolute;
-  top: 60px;
-  left: 290px;
+  top: 100px;
+  left: 178px;
   box-shadow: -5px -5px 5px #bbb;
   background-color: #000;
 }
 
 .header-top {
-  text-align: center;
   font-family: "Rock Salt", cursive;
-  font-size: 28px;
+  font-size: 48px;
   color: #e7d31a;
   text-shadow: 3px 3px 3px #bbb;
   margin: 0 auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fgc-icon {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   background-image: url(../img/fgcicon.jpg);
   border: 3px solid #000;
   border-radius: 5%;
   position: relative;
-  left: 42px;
+  left: 12px;
+
 
 }
 
@@ -53,20 +57,25 @@ body {
   text-align: center;
   color: #e7d31a;
   font-family: "Oswald", sans-serif;
-  width: 290px;
+  width: 178px;
+  font-size: 12px;
   text-shadow: 1px 1px 2px #000;
+
 }
 
 .info-text p {
-  margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .record {
   color: #e7d31a;
   text-shadow: 1px 1px 2px #000;
   font-family: "Rock Salt", cursive;
-  font-size: 28px;
+  font-size: 16px;
+  margin-top: 75px;
+  width: 178px;
+  text-align: center;
 }
 
 .js-box {
