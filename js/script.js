@@ -12,6 +12,9 @@ function raiseWins() {
 
 function lowerWins() {
   wins -= 1;
+  if (wins < 0) {
+    wins = 0;
+  }
   document.getElementById('wins').innerHTML = wins;
 }
 
@@ -22,6 +25,9 @@ function raiseLosses() {
 
 function lowerLosses() {
   losses -= 1;
+  if (losses < 0) {
+    losses = 0;
+  }
   document.getElementById('losses').innerHTML = losses;
 }
 
